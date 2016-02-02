@@ -1,0 +1,7 @@
+---
+
+- name: test playbook to ansible-pull
+  hosts: all
+  tasks:
+      - name: debug output
+        debug: msg="test task"
